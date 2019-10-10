@@ -21,7 +21,9 @@ interpretable compact embeddings, scalable graph embedding},
 
 The source code is being prepared for the publication and cross-platform deployment, and will be fully uploaded soon...  
 Meanwhile, please *write me to get the sources*.
-The [DAOR binaries](https://github.com/eXascaleInfolab/clubmark/tree/master/algorithms/daoc) built on Linux Ubuntu 16.04+ x64 can be found in the [GraphEmbEval](https://github.com/eXascaleInfolab/GraphEmbEval) framework for the graph embedding algorithms evaluation.
+The [DAOR binaries](https://github.com/eXascaleInfolab/daor/releases) built on Linux Ubuntu 16.04+ x64 can be found in the Releases.  
+The execution script to produce embeddings with the recommended number of dimensions is `./daor.sh`. The required number of dimensions (`128` used in the paper) is fetched during the evaluation process when executing the batch evaluation script of the [GraphEmbEval](https://github.com/eXascaleInfolab/GraphEmbEval) as follows:
+`./run.sh -m jaccard -a 'daoc-gr=1' -e 128 --force-dims`
 
 
 ## Related Projects
