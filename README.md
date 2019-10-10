@@ -1,7 +1,7 @@
 # DAOR - Parameter-free Embedding Framework for Large Graphs (Networks) 
 
 `\authors` (c) Artem Lutov <artem@exascale.info>  
-`\license` AGPL 3.0, optional commercial support and relicensing is provided by the request  
+`\license` [AGPL 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) (irrespective on the license statements in the file headers) with possibility to license a derivative work that dynamically links this one under [EUPL](https://eupl.eu/); optional commercial support and relicensing is provided by the request  
 `\organizations` [eXascale Infolab](http://exascale.info/), [Lumais](http://www.lumais.com/)  
 `\keywords` parameter-free graph embedding, unsupervised
 learning of network representation, automatic feature extraction,
